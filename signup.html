@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #sign{
+            /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+            width:20%;
+            margin: auto;
+            margin-top: 100px;
+           
+        }
+        h1{
+            margin: 20px ;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: 30px;
+        }
+        form {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 40px;
+  background-color: #69f0ae;
+}
+
+label {
+  font-size: 20px;
+}
+
+
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+#sign p{
+  text-align: center;
+
+}
+button{
+    width:100%;
+  margin-bottom: 10px;
+    border:none;
+    color:white;
+    padding:18px 120px;
+    background-color:#00e676;
+}
+/* button+button{
+  margin-bottom: 10px;
+    border:none;
+    color:white;#00e676
+    #00e676
+    padding:15px 130px;
+    background-color: black;
+} */
+img{
+    display: block;
+    margin:auto;
+    margin-top:50 px;
+  
+}
+@media all and (min-width:480px) and  (max-width:720px){
+    #sign{
+            
+            width:50%;
+            margin: auto;
+            margin-top: 100px;
+           
+        }
+      
+}
+
+
+@media all and (min-width:320px) and  (max-width:479px){
+    #sign{
+            
+            width:80%;
+            margin: auto;
+            margin-top: 100px;
+           
+    }
+
+}
+
+    </style>
+</head>
+<body>
+
+
+   <div id="sign">
+   
+    <form>
+        <p>- Visitor -</p>
+    <!-- <label for="">Full Name</label><br /> -->
+    <input id="name" type="text" placeholder=" Full Name" /><br />
+    <!-- <label for="">Email</label><br /> -->
+    <input
+      id="Email"
+      type="text"
+      placeholder="Email"
+    /><br />
+    <!-- <label for="">Password </label><br /> -->
+   
+    <input id="org" type="text" placeholder="Organization" /><br />
+  
+   <button>SIGN UP</button>
+   <button>RETURN</button>
+   
+</form></div>
+</body>
+</html>
